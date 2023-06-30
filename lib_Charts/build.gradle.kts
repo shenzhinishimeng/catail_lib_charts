@@ -42,7 +42,7 @@ dependencies {
 
 afterEvaluate {
     configure<PublishingExtension> {
-        val artifact = "charts"
+        val artifact = "lib_Charts"
         val publishedGroupId = "com.github.aachartmodel.aainfographics"
         val libraryName = "AAChartCore-Kotlin"
 
