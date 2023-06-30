@@ -20,11 +20,11 @@ buildscript {
 apply(plugin = "maven-publish")
 
 android {
-    compileSdkVersion(30)
+    compileSdkVersion(31)
 
     defaultConfig {
         minSdkVersion(21)
-        targetSdkVersion(30)
+        targetSdkVersion(31)
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
